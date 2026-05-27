@@ -46,7 +46,7 @@ dotnet dev-certs https --clean
 dotnet dev-certs https --trust
 ```
 
-- Fechar o Container
+- Para fechar o Container após execução
 ```bash 
 docker compose down              
 ```
