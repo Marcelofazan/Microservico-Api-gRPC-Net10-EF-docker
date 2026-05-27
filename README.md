@@ -1,4 +1,4 @@
-##  🔄 Microservicos-Api10-gRPC-docker
+## 🚀 Microservicos-Api10-gRPC-docker
 Exemplo de criação de API no padrão de Arquitetura CQRS, desenvolvida em .NET 10 com banco de dados Postgres.
 
 
@@ -9,7 +9,7 @@ Exemplo de criação de API no padrão de Arquitetura CQRS, desenvolvida em .NET
 | **CQRS** | É um padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador) |
 
-#### Executar a aplicação
+#### 🔄 Executar a aplicação
 
 VSCode Terminal [1]
 ```bash
@@ -37,13 +37,12 @@ dotnet run --launch-profile https
 ```
 
 - Caso for necessário renovar o certificado SSL 
-
 ```bash 
 dotnet dev-certs https --clean
 dotnet dev-certs https --trust
 ```
+
 - Caso precisar deletar a Database do Container 
-  
 ```bash 
 dotnet ef database drop --project InfraEstrutura.Producao.Server --startup-project InfraEstrutura.Producao.Server --force
 ```
@@ -65,7 +64,6 @@ RabbitMQ por padrão possui para acesso Login: **guest** **Senha: **guest**
 
 Registrar Cliente
 https://localhost:7274/api/Cliente/create
-
 ```bash 
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -79,12 +77,9 @@ https://localhost:7274/api/Cliente/create
 ```
 
 Atualizar Cliente
-
-
 ```bash 
 
 https://localhost:7274/api/Cliente/3fa85f64-5717-4562-b3fc-2c963f66afa6
-
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "nome": "Marcelo",
@@ -96,13 +91,10 @@ https://localhost:7274/api/Cliente/3fa85f64-5717-4562-b3fc-2c963f66afa6
 }
 ```
 
-
 Apagar Cliente
-
 ```bash 
 https://localhost:7274/api/Cliente/3fa85f64-5717-4562-b3fc-2c963f66afa6
 ```
-
 #### Postgres (pgAdmin)
 Conexão com o Banco de dados 
 - Com o Servidor do **Postgres** parado em Serviços, crie uma conexão Docker Postgres para 127.0.0.1 e informe o Usuário e Senha 
