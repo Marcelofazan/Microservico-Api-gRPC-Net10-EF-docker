@@ -1,5 +1,5 @@
 ## 🚀 Microservico-Api10-gRPC-docker
-Exemplo de criação de API no padrão de Arquitetura CQRS, desenvolvida em .NET 10 com banco de dados Postgres.
+Exemplo de criação de API no padrão de Arquitetura CQRS, desenvolvida em .NET 10 com banco de dados Postgres e MongoDB.
 
 
 #### O que você vai encontrar neste projeto
