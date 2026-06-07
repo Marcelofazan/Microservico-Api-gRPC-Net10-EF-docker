@@ -9,7 +9,7 @@ Exemplo de criação de API Microserviços com Comunicação gRPC, Mensageria Ra
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador) |
 | **RabbitMQ** | Agente de mensagens (message broker) ele atua como um carteiro altamente inteligente e seguro  |
 
-#### 📁 Requisitos do Projeto
+#### Requisitos do Projeto
 - Necessário **Docker** instalado.
   
 ## 📁 Produção
