@@ -122,7 +122,6 @@ VSCode Terminal [2]
 - Iniciar Server
 ```bash 
 dotnet ef migrations add InitialCreate --project InfraEstrutura.Reporter.DataModels --startup-project Sistema.Reporter.Server
-dotnet ef database update --project InfraEstrutura.Reporter.DataModels --startup-project Sistema.Reporter.Server
 cd Sistema.Reporter.Server
 dotnet run 
 ```
