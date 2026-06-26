@@ -184,8 +184,8 @@ dotnet dev-certs https --clean
 dotnet dev-certs https --trust
 ```
 
-#### ⚙️ Configuração - RabbitMQ
-- Caso o RabbitMQ não estar atualizando 
+#### ⚙️ Configuração - RabbitMQ Conflito Portas e Logout 
+- Caso o RabbitMQ não estar atualizando, refaça o login e verifique as portas
 - Caso houver falhas na criação do Conteiner na porta do RabbitMQ execute no PowerShell executar . 
 ```bash 
 netstat -ano | findstr 5672
