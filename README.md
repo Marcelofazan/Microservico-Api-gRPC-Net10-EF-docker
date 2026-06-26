@@ -22,16 +22,11 @@ docker-compose up --build
 ```
 VSCode Terminal [2]
 ```bash
-dotnet build
 
-dotnet add Sistema.Producao.API package Microsoft.EntityFrameworkCore.Design
-
+cd Producao 
 dotnet ef migrations add InitialCreate --project InfraEstrutura.Producao.DataModels --startup-project Sistema.Producao.API
-
 dotnet ef database update --project InfraEstrutura.Producao.DataModels --startup-project Sistema.Producao.API
-
 cd InfraEstrutura.Producao.Server 
-
 dotnet run 
 ```
 VSCode Terminal [3]
