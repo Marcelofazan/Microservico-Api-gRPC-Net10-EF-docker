@@ -4,7 +4,7 @@ Exemplo de projeto com Arquitetura CQRS com comunicação gRPC e MediatR, mensag
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
 |-----------|-----------|
-| **CQRS** | É um padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
+| **CQRS** | Padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
 | **gRPC** | O gRPC é um framework para a comunicação de alta performance, utiliza o protocolo HTTP/2 na camada de rede e realiza a serialização de dados em Protocol Buffers. |
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador) |
 | **RabbitMQ** | Agente de mensagens (message broker) ele atua como um carteiro altamente inteligente e seguro  |
