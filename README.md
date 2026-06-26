@@ -41,7 +41,8 @@ dotnet run --launch-profile https
 ```bash 
 docker compose down              
 ```
-URL(s) usadas:
+
+#### 🧪 Executar Endpoints
 | Host | URL | Projeto | 
 |-----------|-----------|-----------|
 | **Server** | http://localhost:5184 | **Infraestrutura** |
@@ -51,7 +52,6 @@ URL(s) usadas:
 
 RabbitMQ por padrão possui para acesso Login: **guest** **Senha: **guest** 
 
-#### 🧪 Executar Endpoints
 
 Registrar Cliente
 https://localhost:7274/api/Cliente/create
