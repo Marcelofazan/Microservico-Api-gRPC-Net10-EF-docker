@@ -13,13 +13,15 @@ Exemplo de projeto com Arquitetura CQRS com comunicação gRPC e MediatR, mensag
 - Necessário **Docker** instalado.
 - Realizar Migrations EntityFramework .NET
 - Necessário acomplamento de serviços, o Reporter depende da execução de Producao.
-
+  
+```bash 
 VSCODE Abrir 3 Instancias do programa
 |-------|
         |-------| Producao
         |-------| Reporter
         |-------| Frontend
-  
+```
+
 ## 📁 Producao
 #### 🔄 Executar a aplicação
 
