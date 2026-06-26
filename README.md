@@ -133,6 +133,10 @@ dotnet run --launch-profile https
 docker compose down         
 ```
 
+Exemplo chamada Relatório de consolidação, ele será gravado no banco de dados MongoDB
+
+#### 🧪 Executar Endpoints
+
 | Host | URL | Projeto | 
 |-----------|-----------|-----------|
 | **Server** | http://localhost:5159 | **Infraestrutura** |
@@ -140,9 +144,6 @@ docker compose down
 | **gRPC** | https://localhost:7237/ | **API** |
 | **RabbitMQ** | http://localhost:15672 | **API** |
 
-Exemplo chamada Relatório de consolidação, ele será gravado no banco de dados MongoDB
-
-#### 🧪 Executar Endpoints
 ```bash 
 https://localhost:7080/api/Consolidacao/consolidacao?data=2026-06-26
 ```
